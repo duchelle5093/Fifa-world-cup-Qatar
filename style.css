@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'qatar2022';
+      font-weight: 600;
+    src: url(./Qatar2022-Heavy.otf) format('opentype');  
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+ font-family: "qatar2022";  
+ width: 100vw; 
+ overflow-x: hidden;
+}
+
+  header{ 
+    height: 100vh;
+    font-family: "qatar2022"; 
+    transition-property: background-color;
+    transition-duration: 250ms; 
+
+} 
+.header{
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+.caption{
+    color: #eeeee4;
+    font-size: 6em;
+    padding-left: 300px;
+    padding-top: 90px;
+    font-family: "qatar2022"; 
+}
+.log{
+    width: 120px;
+    color: white;
+}
+.div1, .div2{
+    margin-top: 15px;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+.haut{
+    display: flex;
+    gap: 30px;
+    padding: 15px 15px 0px 75%;
+    margin-bottom: 15px;
+}
+.haut a{
+    color: #eeeee4;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 10px 10px; 
+    border: 1px solid #eeeee4;
+    transition-property: border;
+    transition-duration: 250ms;
+
+    
+}
+.logo-text img{
+    width: 10vw;
+} 
+.div1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navbar a{
+    color:#eeeee4;
+}
+.div2 a{
+    color: #8a1538;
+}
+.follow{
+    clip-path: polygon(25% 0%, 76% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+     padding: 20px;
+     padding-left: 50px;
+     padding-right: 50px;
+    background-color:#eeeee4 ;
+
+}
+
+.header:hover{
+    background-color: #eeeee4;
+}
+.header:hover a{
+    color: #8a1538;
+   
+}
+.header:hover .follow{
+    background-color: #8a1538;
+    color: #eeeee4;
+    font-weight:normal;
+}
+
+.navbar:hover{
+    border: 1px solid #8a1538;
+}
+ .follow:hover{
+    padding-left: 60px;
+    padding-right: 60px;
+} 
+center  img{
+    padding: 150px;
+    width: 300px;
+}
+.section1{
+    background: url(./asset-21.jpeg) center/cover;
+   height: 78vh;
+}
+.section2{
+  background-color: #eeeee4;
+    padding-bottom: 100px;  
+    height: 40vh;
+}
+.section1 p{
+    font-size: 7em;
+    text-align: center;
+    margin-top: -150px;
+    color: rgba(70, 70, 70, 0);
+    -webkit-text-stroke: #eeeee4 2px;
+}
+.div3 img{
+    width: 1200px;
+    height: 23vh;
+    padding: 20px 20px 20px 20px;
+
+} 
+.div3 p {
+    font-size: 1em;
+    text-align: start;
+    color:#eeeee4;
+    padding-left: 45px;
+}
+.div3 h1{
+    text-align: start;
+    color: #eeeee4;
+    padding-left: 45px;
+}
+.div3{
+    background-color: #ff4700;
+    width: 70vw;
+    padding-bottom: 70px;
+    position: relative;
+    bottom: 250px;
+}
+.p-h{
+    padding-top: 70px;
+    padding-left: 260px;
+}
+.p-h p{
+    color:#eeeee4;
+}
+.p-h h1{
+    color: #eeeee4;
+}
+.les-img{
+    display: flex;
+    margin-left: -180px;
+    /* gap: 2px; */
+}
+.les-img .pers{
+    width: 45vw;
+    height: 50vh;
+    margin-top: 50px;
+    /* flex-basis: 50%; */
+}
+.les-img .baton{
+    width: 5.8vw;
+    margin-left: -150px; 
+}
+.tout{
+    display: flex;
+}
+.section4{
+    background-color: #550065;
+}
+.section5{
+    background-color: #ff004c;
+}
+.section5 .pers{
+    width: 30vw;
+    height: 45vh;
+     margin-left: 295px; 
+}
+.section5 .baton{
+     margin-left: 10px;
+     height: 50vh;
+     margin-top: 31px;
+}
+
+
+.menu{
+    background-color:#eeeee4;
+    width: 5vw;
+    height: 3px;
+}
+.le-m{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    bottom: 210px;
+    right: 18px;
+}
+.contenu:hover .menu{
+    width: 20vw;
+    height: 30px;
+    background-color: #8a1538;
+    transition: 0.5s;
+}
+
